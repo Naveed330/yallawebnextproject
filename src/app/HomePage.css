@@ -1,0 +1,1431 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Navbar CSS */
+.LinkClass {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 0.17px;
+    font-weight: 800px;
+    line-height: 100%;
+    font-weight: 500px;
+}
+
+.LinkClass:focus,
+.LinkClass:active,
+.LinkClass:hover {
+    background-color: #4bc6da;
+    color: white;
+    border-radius: 15px;
+}
+
+.HomePageConatiner {
+    background: linear-gradient(to right, white, #83daf3);
+}
+
+/* .heroSectionSlider {
+    position: relative;
+    width: 100%;
+  }
+  
+  .heroSectionSlider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .drinkbottle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+  } */
+  
+  /* @media (max-width: 768px) {
+    .drinkbottle {
+      width: 70%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .drinkbottle {
+      width: 10%;
+    }
+  } */
+
+.navHeadClass {
+    /* background: radial-gradient(circle, #4BC6DA, white); */
+    background: linear-gradient(to right, white, rgba(75, 198, 218, 0.5));
+    width: 100%;
+
+}
+
+.cardBlog {
+    background: linear-gradient(to right, #83daf3, white);
+}
+
+.discoverContainer {
+    margin-top: 35px;
+}
+
+.testmonialtext {
+    color: rgba(50, 50, 50, 0.43) !important;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+}
+
+.venderingbusinesscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 60vh;
+}
+
+
+
+
+
+.imageClasslogo {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.dotClass {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.dotClass h1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 51px;
+    line-height: 100%;
+    letter-spacing: 0.51px;
+    width: 100%;
+    max-width: 450px;
+    font-weight: 700px;
+}
+
+/* HomePage.css */
+
+.dotClass {
+    text-align: center;
+    padding: 20px;
+}
+
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.machineInsllated {
+    color: #61C5D4;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    /* 73px */
+    letter-spacing: 4.38px;
+}
+
+
+
+
+
+
+
+.twoCol {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.numbrcountclass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    margin-top: 15%;
+    /* width: 100%;
+    max-width: 650px; */
+}
+
+
+.productTag {
+    color: rgba(50, 50, 50, 0.43);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+}
+
+
+
+
+.yallaproduct {
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.34px;
+}
+
+.yallatag {
+    color: #4BC6DA;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.34px;
+}
+
+
+
+.producttext {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.12px;
+}
+
+
+
+
+
+.viewAllproducts {
+    display: flex;
+    width: 235px;
+    height: 55px;
+    padding: 7px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    border: 1px solid #4BC6DA;
+    background: #61C5D4;
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.19px;
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.viewAllproducts:hover {
+    background: linear-gradient(to right, #052A37, #B7DADC);
+    transform: scale(1.05);
+    border: none;
+}
+
+
+.moreservices {
+    color: #FFF;
+    text-decoration: none;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.27px;
+    display: flex;
+    width: 334px;
+    height: 78px;
+    padding: 7px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    border: 1px solid #4BC6DA;
+    margin-bottom: 30px;
+    background: #61C5D4;
+    transition: background-color 0.3s ease;
+}
+
+.moreservices:hover {
+    background: linear-gradient(to right, #052A37, #B7DADC);
+    transform: scale(1.05);
+    border: none;
+}
+
+
+.vende_bgImage {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.btnContainerprpduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.seeGallery {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.34px;
+    margin-top: 2px;
+}
+
+.profitvenue {
+    background-image: url('./Assets/HomePageAssets/profitvenue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+}
+
+.profittext {
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.41px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+
+
+.viewAllservicegetstarted {
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.serviceCards {
+    width: 85%;
+    height: auto;
+}
+
+.service-image {
+    transition: transform 0.3s ease-out;
+}
+
+.service-image:hover {
+    transform: scale(1.2);
+}
+
+.allservicecards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.service-image-five {
+    rotate: 365deg;
+    margin: -98px !important
+}
+
+.service-image-four {
+    margin: -96px !important;
+}
+
+.service-image-two {
+    margin-left: -30px;
+}
+
+.service-image-three {
+    rotate: 360deg;
+    margin-right: -27px;
+
+}
+
+.service-image-one {
+    rotate: 0deg;
+}
+
+.img_fluid_adnoc {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.TestamonialMianContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 10px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.adnoctxt {
+    color: #000;
+    font-family: "Adobe Devanagari";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 5%;
+    letter-spacing: 0.27px;
+    text-align: justify;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* .yasmarina_image{
+    width: 100%;
+    height: auto;
+} */
+.adnoc_bg_image {
+    width: 100%;
+    margin-left: 12px;
+}
+
+
+.VendingCorp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.carddatecontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.peopletrustUs {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+}
+
+.partnerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+.footerContainer {
+    background: radial-gradient(circle, rgba(34, 68, 74, 1) 0%, rgba(21, 21, 22, 1) 50%, rgba(24, 30, 31, 1) 100%);
+    color: white;
+}
+
+.adnocyasContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    width: 100%;
+    /* padding: 10px; */
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.adnoctxt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.company_div {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12.502px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.158px;
+    letter-spacing: 2.885px;
+}
+
+
+.footerText {
+    color: #ADADAD;
+    font-size: 15.387px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.005px;
+}
+
+.companyHELP {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carousalImage {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 60%;
+    object-fit: contain;
+}
+
+.subscribeNewletter {
+    color: #FFF;
+    font-size: 12.502px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21.158px;
+    letter-spacing: 2.885px;
+}
+
+.subscribeBtn {
+    width: 137.526px;
+    height: 52.895px;
+    flex-shrink: 0;
+    border-radius: 0px 4.809px 4.809px 0px;
+    background: #4BC6DA;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14.426px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+.textField {
+    display: flex;
+    align-items: center;
+    gap: 12.502px;
+    align-self: stretch;
+}
+
+.instaText {
+    color: rgba(50, 50, 50, 0.43);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+    text-align: center;
+}
+
+.cardPartnerContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slider-container {
+    width: 100%;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.blognews {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.34px;
+}
+
+
+
+.vendertag {
+    color: #4BC6DA;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.34px;
+}
+
+.copyright {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13.464px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.234px;
+}
+
+
+.adnoccontainer {
+    width: 100%;
+    max-width: 1030px;
+    margin: auto;
+}
+
+
+.blogtextCard {
+    overflow: hidden;
+    color: var(--main-black, #2C2C2C);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.machineInstalledTxt {
+    width: 100%;
+    max-width: 500px;
+}
+
+.machineInstalledCol {
+    display: flex;
+    align-items: end;
+}
+
+
+/* styles.css */
+@keyframes fadeInEaseOut {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-ease-out {
+    animation: fadeInEaseOut 1s ease-out;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.logoAnimated {
+    animation: logoAnimation 2s infinite;
+}
+
+.numbrcountclass img {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.numbrcountclass img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.numbrcountclass img:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.numbrcountclass img:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.numbrcountclass img:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background: #edeff4;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+/*Image*/
+.card-avatar {
+    --size: 60px;
+    background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+}
+
+
+/*Card footer*/
+.card-social {
+    transform: translateY(200%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    opacity: 0;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+.card-social__item {
+    list-style: none;
+}
+
+.card-social__item svg {
+    display: block;
+    height: 18px;
+    width: 18px;
+    fill: #515F65;
+    cursor: pointer;
+    transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+/*Text*/
+.card-title {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.card-subtitle {
+    color: #859ba8;
+    font-size: 0.8em;
+}
+
+/*Hover*/
+.card:hover {
+    box-shadow: 0 8px 50px #23232333;
+    background-color: white;
+}
+
+.card:hover .card-info {
+    transform: translateY(-5%);
+}
+
+.card:hover .card-social {
+    transform: translateY(100%);
+    opacity: 1;
+}
+
+.card-social__item svg:hover {
+    fill: #232323;
+    transform: scale(1.1);
+}
+
+.card-avatar:hover {
+    transform: scale(1.1);
+}
+
+.carddatecontainer-wrapper {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease-out;
+}
+
+.cardBlog:hover .carddatecontainer-wrapper {
+    height: auto;
+}
+
+.carddatecontainer {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.cardBlog:hover .carddatecontainer {
+    opacity: 1;
+}
+
+.heroSectiontxt {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.98px;
+    text-transform: uppercase;
+    animation: fadeIn 1s ease-in-out;
+    /* Example animation */
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.heroSectionContainer {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.shoponlinebtn {
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.41);
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.visionAboutimage {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+
+.nested_image_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imageOne_nested {
+    flex: 1 0 200px;
+    /* Adjust the width of each image container as needed */
+    max-width: 100%;
+    /* Ensure images don't exceed their container width */
+}
+
+.responsive_image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imageOne_nested:hover .responsive_image {
+    transform: scale(1.1);
+}
+
+.imageOne_nested {
+    width: 100%;
+    max-width: 127px;
+    margin-top: 4%;
+}
+
+.who_we_are {
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.34px;
+    text-transform: capitalize;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.yallaaboutconatiner {
+    width: 100%;
+    max-width: 479px;
+    margin-top: 20px;
+}
+
+.yallatextaboutmission {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 18px */
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+
+.yallaboutproduct {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+    margin-top: 2%;
+}
+
+.readMorebtn {
+    border-radius: 21.136px;
+    background: #74CEDC;
+    display: flex;
+    padding: 15px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.13px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btnContainerabout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: none !important;
+}
+
+.aboutmissionvision {
+    color: rgba(50, 50, 50, 0.43);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+    border: none;
+    background-color: transparent !important;
+}
+
+.img_fluid_heroscetion {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.img_fluid_heroscetion:hover  {
+    transform: scale(1.1);
+}
+
+.nested_image_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.imageOne_nested {
+    cursor: pointer;
+}
+
+.responsive_image {
+    width: 100px;
+    /* Adjust based on your requirement */
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+
+    .numbrcountclass {
+        margin-top: 10%;
+    }
+
+
+    .companyHELP {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-top: 20px;
+    }
+
+    .heroSectiontxt {
+        font-size: 26px;
+    }
+
+    .dotClass,
+    .twoCol {
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .machinenumbercountcontainer {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .machineInsllated {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .vende_bgImage {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .yasmarina_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .visionAboutimage {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nested_image_container {
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+
+    .btnContainerabout {
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+
+    .aboutmissionvision {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .who_we_are {
+        font-size: 20px;
+    }
+
+    .visionAboutimage {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) {
+    .imageClasslogo {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .imageClasslogo {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 900px) {
+    .numbrcountclass {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .visionAboutimage {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .who_we_are {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .yallalogoabout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .yallalogocontainer {
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+    .heroSectiontxt {
+        font-size: 28px;
+    }
+
+    .yallaboutproduct {
+        font-size: 14px;
+    }
+
+    .adnoctxt {
+        font-size: 16px;
+    }
+
+    .who_we_are {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .machineInstalledCount {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .machineInstalledCol {
+        display: flex;
+        justify-content: center;
+    }
+
+    .machineInsllated {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .yallalogoabout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .numbrcountclass {
+        margin-top: 3%;
+    }
+
+    .visionAboutimage {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yallalogocontainer {
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .heroSectiontxt {
+        font-size: 18px;
+    }
+
+    .machinenumbercountcontainer {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .yallalogoabout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .discoverContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .who_we_are {
+        text-align: center;
+    }
+
+    .venderingbusinesscontainer {
+        height: 30vh;
+    }
+
+    .yallalogocontainer {
+        margin-top: 3%;
+    }
+
+    .machineInsllated {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .profittext {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .TestamonialMianContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .VendingCorp {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imageClasslogo {
+        width: 100%;
+        height: 30%;
+        max-width: 300px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+
+    }
+
+    .VendingCorptext {
+        color: #000;
+
+        leading-trim: both;
+
+        text-edge: cap;
+        font-family: Inter;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+        /* 19px */
+        letter-spacing: 0.19px;
+    }
+
+    .yallavenderingtext {
+        color: #000;
+
+        leading-trim: both;
+
+        text-edge: cap;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+        /* 25px */
+        letter-spacing: 0.25px;
+    }
+
+    .viewAllservicegetstarted {
+        background-color: black;
+        text-decoration: none;
+        padding: 5px 25px;
+        margin: 10px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .seeGalleryLine {
+        width: 70%;
+    }
+
+    .btnContainerprpduct {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .vende_bgImage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .yallaproduct {
+        color: '#000';
+        font-size: 25px;
+        line-height: 100%;
+        letter-spacing: 0.34px;
+    }
+
+    .moreservices {
+        width: 250px;
+        height: 50px;
+        padding: 7px 15px;
+        font-size: 28px;
+        font-size: 24px;
+    }
+
+    .adnoctxt {
+        font-size: 16px;
+    }
+
+    .machineInstalledCount {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .machineInstalledCol {
+        display: flex;
+        justify-content: center;
+    }
+
+    .numbrcountclass {
+        margin-top: 3%;
+    }
+
+    .yasmarina_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .visionAboutimage {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yallaboutproduct {
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,131 @@
+.navmachineClass {
+    background: linear-gradient(to right, white, rgba(75, 198, 218, 0.5));
+    width: 100%;
+}
+
+.LinkClass {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 0.17px;
+    font-weight: 800px;
+    line-height: 100%;
+    font-weight: 500px;
+}
+
+
+/* Container */
+.machineConatiner {
+    background: linear-gradient(to right, white, #83daf3);
+    height: 100vh;
+
+}
+
+.chooseMachine {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86.405%;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.retail_div {
+    width: 242px;
+    height: 242px;
+    flex-shrink: 0;
+    background-color: #7b8d94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.textretail {
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86.405%;
+}
+
+.retailmainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5%;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.logoAnimated {
+    animation: logoAnimation 2s infinite;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.retailmainContainer>div {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@media only screen and (max-width: 600px) {
+    .retailmainContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    .chooseMachine {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 86.405%;
+        text-align: center;
+        padding-top: 4%;
+    }
+
+    .textretail {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 86.405%;
+    }
+}

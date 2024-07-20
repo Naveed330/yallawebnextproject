@@ -1,0 +1,107 @@
+.productParameter {
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86.405%;
+    margin-top: 40px;
+    /* 29.378px */
+}
+
+.fuselarge {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 16px */
+    letter-spacing: 0.16px;
+}
+
+.Yallahealthercontainer {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.healthierClassContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mmtag {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+
+.mmtagarrow {
+    transform: rotate(180.164deg);
+    color: #000;
+
+    text-align: center;
+    leading-trim: both;
+
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 16px */
+    letter-spacing: 0.16px;
+}
+
+.arrowlowerside {
+    transform: rotate(383.164deg);
+    margin-top: -14px;
+}
+
+.arrowlowersideuppw {
+    transform: rotate(374.164deg);
+    margin-top: 3px;
+}
+
+.upperlowerdiv {
+    height: 530px;
+}
+
+.uppersidearrowmain {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    transform: rotate(-18.812deg);
+    gap: 2px;
+    margin-bottom: -17px;
+}
+
+.uppersidearrowmainone {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    transform: rotate(-166.239deg);
+    gap: 2px;
+    position: absolute;
+    /* background-color: red; */
+    right: 35%;
+}
+
+.vendehealthier {
+    position: relative;
+}

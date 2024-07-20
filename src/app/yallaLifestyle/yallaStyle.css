@@ -1,0 +1,225 @@
+.yallaContainer {
+    background: linear-gradient(to right, white, #83daf3);
+    height: 100vh;
+}
+
+.yallatextDiv {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.yallatext {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86.405%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.yallaImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImage {
+    width: 60%;
+    height: auto;
+}
+
+.yallalifestyletext {
+    color: #000;
+    text-align: justify;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.22px;
+    margin-top: 8px;
+}
+
+.yallaLifestyleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.imageContainerView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.inspiringImage {
+    width: 50%;
+    height: auto;
+}
+
+.accessproducts {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.23px;
+}
+
+.abtUsyalla {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86.405%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.yallaLifeoperation {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.23px;
+    margin-top: 2%;
+}
+
+.slider-container {
+    width: 100%;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.yallaLifeStylediv {
+    padding: 20px;
+    text-align: center;
+}
+
+.yallaCarousaltxt {
+    font-size: 1.2rem;
+}
+
+.slick-slider {
+    margin: 0 auto;
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.brandsTag {
+    color: #000;
+    margin-top: 50px;
+    font-family: "Playfair Display";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86.405%;
+    text-align: center;
+}
+
+.carousalImage {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.instalsocialLink {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.23px;
+    margin-top: 10px;
+}
+
+.yallaCarousalImage {
+    width: 150px;
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .yallatext {
+        font-size: 25px;
+        padding-top: 0px;
+    }
+
+    .inspiringImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .yallalifestyletext {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: justify;
+    }
+
+    .abtUsyalla {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .accessproducts {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    .yallaLifeoperation {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .brandsTag {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .instalsocialLink {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 5px;
+    }
+}

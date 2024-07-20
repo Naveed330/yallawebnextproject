@@ -1,0 +1,285 @@
+.productContainer {
+    background: linear-gradient(to right, white, #83daf3);
+    height: 100vh;
+}
+
+.topsearchBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 0px 10px;
+    background-color: #fff;
+}
+
+.searchInput {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.searchInput::placeholder {
+    color: #999;
+}
+
+.searchInput:focus,
+.searchInput:focus-visible {
+    border: none !important;
+}
+
+
+.hrtag {
+    border-left: 2px solid #000;
+    height: 20px;
+}
+
+.barTag {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+.barTag:active,
+.barTag:hover {
+    background-color: #4bc6da;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+
+.barRoute {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.linkSearch {
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.YallahealthyBarcontainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.YallahealthyBarcontainerLinks {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.healthybar {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86.405%;
+    text-transform: uppercase;
+}
+
+.aedvalue {
+    color: #4BC6DA;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.almondtext {
+    color: #333;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.ptag {
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.LinkClassproduct {
+    width: 257px;
+    height: 73px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #4BC6DA;
+    padding: 20px;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.LinkClassproduct:hover,
+.LinkClassproduct:focus,
+.LinkClassproduct:active {
+    background: #138497;
+}
+
+.MoreClassbtn {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.morebtncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.ALLBTNforMobile {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.mblebtnText {
+    background: #4BC6DA;
+    padding: 18px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.mblebtnText:hover,
+.mblebtnText:focus,
+.mblebtnText:active {
+    background: #138497;
+}
+
+
+
+/* Media Query */
+
+@media (min-width: 768px) {
+    .ALLBTNforMobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .topsearchBar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: end;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .healthybar {
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .almondtext {
+        font-size: 25px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .aedvalue {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .YallahealthyBarcontainerLinks {
+        display: none;
+    }
+
+}
